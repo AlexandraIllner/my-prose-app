@@ -6,31 +6,31 @@
 
 # My-Prose-App
 
-**My-Prose-App** ist ein Beispiel für die Verwendung des **Prose-Builder**-Projekts. 
-Es zeigt, wie mit dem `ProseBuilder` aus der `prose-builder` Bibliothek einfache 
+**My-Prose-App** ist ein Beispiel für die Verwendung des **Prose-Builder**-Projekts.
+Es zeigt, wie mit dem `ProseBuilder` aus der `prose-builder` Bibliothek einfache
 Sätze zu Prosatexten zusammengefügt werden können.
 
-**Prose-Builder** ist ein einfaches Open-Source-Tool zur Erstellung von Prosatexten, 
-basierend auf importierten Sätzen. Es ermöglicht Entwickler:innen, einfach Sätze zu 
+**Prose-Builder** ist ein einfaches Open-Source-Tool zur Erstellung von Prosatexten,
+basierend auf importierten Sätzen. Es ermöglicht Entwickler:innen, einfach Sätze zu
 registrieren und daraus fließende Prosa zu generieren.
 
 ## Überblick
 
 My-Prose-App demonstriert die Funktionalität von Prose-Builder, indem es einfache Sätze
-registriert und daraus eine komplette Prosa generiert, die dann in der Konsole 
+registriert und daraus eine komplette Prosa generiert, die dann in der Konsole
 ausgegeben wird.
 
 ## Features
 
-- **Integration von Prose-Builder**: Nutzung der `ProseBuilder`-Klasse für einfache 
+- **Integration von Prose-Builder**: Nutzung der `ProseBuilder`-Klasse für einfache
 Prosa-Erstellung.
-- **Beispielimplementierung**: Enthält eine einfache Implementierung eines 
+- **Beispielimplementierung**: Enthält eine einfache Implementierung eines
 `Sentence`-Interfaces.
 
 ## Installation
 
-Um die Applikation zu installieren und auszuführen, wird Maven benötigt, 
-um die Abhängigkeiten zu verwalten. 
+Um die Applikation zu installieren und auszuführen, wird Maven benötigt,
+um die Abhängigkeiten zu verwalten.
 
 - **Klonen des Repositories:**
 
@@ -53,12 +53,12 @@ Um My-Prose-App auszuführen, kann der folgende Befehl im Terminal verwendet wer
 mvn exec:java -Dexec.mainClass="de.htw_berlin.fb4.elise.my-prose-app.App"
 ```
 
-Das Programm wird eine einfache Nachricht und die generierte Prosa basierend auf der 
+Das Programm wird eine einfache Nachricht und die generierte Prosa basierend auf der
 `SimpleSentence` Klasse in der Konsole ausgeben.
 
 ## Abhängigkeit zu Prose-Builder
 
-My-Prose-App ist auf Prose-Builder angewiesen, welches als Maven-Abhängigkeit in der 
+My-Prose-App ist auf Prose-Builder angewiesen, welches als Maven-Abhängigkeit in der
 `pom.xml` enthalten ist:
 
 URL zum Repository: https://maven.pkg.github.com/bs-jokri/prose-builder
@@ -75,7 +75,7 @@ URL zum Repository: https://maven.pkg.github.com/bs-jokri/prose-builder
 
 ## Beitrag
 
-Beiträge und Verbesserungen sind herzlich willkommen! Um mitzumachen, folge diesen 
+Beiträge und Verbesserungen sind herzlich willkommen! Um mitzumachen, folge diesen
 Schritten:
 
 1. Forke das Repository.
@@ -87,11 +87,11 @@ Schritten:
 
 ## Lizenz
 
-Dieses Projekt wird unter der GNU General Public License Version 3 (GPLv3) lizenziert. 
-Es erlaubt freie Nutzung, Modifikation und Verteilung unter Beibehaltung der 
+Dieses Projekt wird unter der European Union Public License 1.2 lizenziert.
+Es erlaubt freie Nutzung, Modifikation und Verteilung unter Beibehaltung der
 Lizenzbedingungen. Details findest du in der LICENSE-Datei.
 
 ## Kontakt
 
-Bei Fragen oder Anregungen zu My-Prose-App kann direkt über das GitHub Repository 
+Bei Fragen oder Anregungen zu My-Prose-App kann direkt über das GitHub Repository
 ein Issue erstellt werden.

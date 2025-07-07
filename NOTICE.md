@@ -1,8 +1,8 @@
-# Notices for the Prose-Sample
+# Notices for my-prose-app
 
-This content is produced and maintained by eliseHtw.
+This content is produced and maintained by Alexandra Weber.
 
-* Project home: https://github.com/eliseHtw/prose-sample
+* Project home: https://github.com/AlexandraIllner/my-prose-app.git
 
 ## Trademarks
 
@@ -17,16 +17,16 @@ listed source code repository logs.
 ## Declared Project Licenses
 
 This program and the accompanying materials are made available under the
-terms of the GNU General Public License v3.0 which is available at
-https://www.gnu.org/licenses/gpl-3.0.html
+terms of the uropean Union Public License 1.2 (EUPL-1.2) or later which is available at
+[LICENSE](LICENSE)
 
-SPDX-License-Identifier: GPL-3.0-or-later
+SPDX-License-Identifier: EUPL-1.2
 
 ## Source Code
 
 The project maintains the following source code repositories:
 
-* https://github.com/eliseHtw/prose-sample
+* https://github.com/AlexandraIllner/my-prose-app
 
 ## Third-Party Dependencies
 
