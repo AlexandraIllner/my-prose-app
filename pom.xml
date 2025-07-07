@@ -4,23 +4,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.htw_berlin.fb4.elise</groupId>
+  <groupId>de.htw_berlin.fb4.ossd</groupId>
   <artifactId>my-prose-app</artifactId>
-  <version>1.0.0</version>
+  <version>1.1-SNAPSHOT</version>
 
-  <packaging>jar</packaging>
-  <distributionManagement>
-    <repository>
-      <id>mygithub</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/eliseHtw/my-prose-app</url>
-    </repository>
-  </distributionManagement>
-
-  <name>my-prose-app</name>
-  <description>A simple my-prose-app.</description>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>prose_builder</name>
+  <description>A simple prose_builder.</description>
+  <url>https://github.com/AlexandraIllner/my-prose-app</url>
+  <licenses>
+    <license>
+      <name>EUPL-1.2</name>
+      <url>https://spdx.org/licenses/EUPL-1.2.html</url>
+    </license>
+  </licenses>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,10 +36,14 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.10.2</version>
-      <scope>test</scope>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.12.1</version>
     </dependency>
     <dependency>
       <groupId>de.htw_berlin.fb4.ossd</groupId>
@@ -53,7 +53,7 @@
   </dependencies>
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <pluginManagement>
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
